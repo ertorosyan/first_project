@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            .thumbnail {
+                margin-bottom: 15px; 
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 class="font-weight-bold page-header text-center"> Product list</h1>
+            <div class="container my-4">
+            <div id="container" class="row"></div>
+            </div>
+        </div>
+        
+
+        <!-- Forms to add element -->
+
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Add a New Product</h4>
+                            <form>
+                                <div class="form-group">
+                                    <label for="img">Product Image URL:</label>
+                                    <input type="text" id="img" class="form-control" placeholder="Enter image URL">
+                                    <small id="imgHelp" class="form-text text-muted">Provide a direct link to the product image.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Product Name:</label>
+                                    <input type="text" id="name" class="form-control" placeholder="Enter product name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="price">Product Price:</label>
+                                    <input type="text" id="price" class="form-control" placeholder="Enter product price" step="0.01" min="0">
+                                    <small id="priceHelp" class="form-text text-muted">Specify the price in USD.</small>
+                                </div>
+                                <button type="submit" id="req-cart" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+    <footer>
+        
+    </footer>
+</html>

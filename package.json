@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "node.js": "^0.0.1-security",
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "DevStart": "nodemon server.js"
+  },
+  "name": "js-",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
